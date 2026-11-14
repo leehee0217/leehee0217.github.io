@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Test Page</title>
+<style>
+  :root { --bg:#f7f7f5; --card:#ffffff; --text:#1c1c1a; --sub:#5f5e5a; --accent:#2a78d6; --line:#e3e2dc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111111; --card:#1b1b1a; --text:#f2f2ef; --sub:#b4b3ab; --accent:#5aa0f0; --line:#2e2e2b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; line-height:1.6; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  .card h2 { font-size:16px; margin:0 0 8px; color:var(--accent); }
+  .card p { margin:4px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h2>About</h2>
+    <p>테스트입니다</p>
+  </div>
+
+  <div class="card">
+    <h2>Documents</h2>
+    <p>테스트입니다</p>
+  </div>
+</div>
+</body>
+</html>
